@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+   
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+#left{
+    width: 60%;
+    background-color:darkslategray;
+    display: flex;
+}
+#right{
+    width: 50%;
+    background-color:darkslategrey;
+    display: flex;
+    border-left: 2px solid grey;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 2px;
+}
+li{
+    color: white;
+}
+h5{
+    color:black;
+
+    
+}
+p{
+    display: inline-block;
+}
+#menu{
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+}
+#drop{
+    position: relative;
+}
+#drop:hover #menu
+{
+    display: block;
+    background-color: pink;
+    color: black;
+ 
+}
